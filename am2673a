@@ -1,0 +1,9 @@
+## ZeroEgo - Teaching machines to talk like a hacker so we can mine social media to predict Zero Day Vulnerabilities and Exploits.
+
+**The Zero Index** is the first index position in an array.  It is the hacker / source of information with the most respect (i.e., the lowest amount of “ego” = extent to which your hype exceeds your abilities).
+
+We find the hackers and sources of information with the highest respect by “reverse engineering” the most respected sources of information about exploits and vulnerabilities (e.g., the common exploit database and NIST exploit database, exploitDB, etc.)
+
+We then use this information to mine social media (e.g., twitter, Facebook, freenode chat, etc.) to find the keywords used to talk about somebody’s work on a zero day exploit, and the language used to indicate respect (e.g., pwn or exploit or 0day and “very cool”).  We use sentiment analysis to rate the hackers and keywords.
+
+We are writing a plugin for maltego to enhance it’s social media analysis capabilities by using natural language processing (e.g., HavenOnDemand or Azure).
